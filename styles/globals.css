@@ -1,16 +1,30 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dark: #000000;
+  --light: #FFFFFF;
+  --darkBg: #14213D;
+  --lightBg: #E5E5E5;
+  --links: #FCA311;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
 
-* {
-  box-sizing: border-box;
+.aboutLists li:hover:before{box-shadow: 0 0 0 10px #FCA311}
+.aboutLists li:hover:before{background: #fff}
+
+@layer base {
+  html {
+    @apply scroll-smooth font-intel;
+  }
+  body {
+    @apply bg-[#E5E5E5] dark:bg-[#14213D];
+  }
+  * {
+    @apply  outline-amber-500;
+  }
+  a {
+    @apply text-amber-500 hover:text-orange-400 transition-colors;
+  }
 }
