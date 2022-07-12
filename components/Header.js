@@ -24,7 +24,7 @@ const Header = () => {
 
   const renderThemeChanger = () => {
     // not render unill page render first so js load and read theme from localsotrage
-    // if (!mounted) return null;
+    if (!mounted) return null;
 
     const currentTheme = theme === 'system' ? systemTheme : theme;
 

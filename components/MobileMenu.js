@@ -38,7 +38,7 @@ const MobileMenu = ({ renderThemeChanger, setNav }) => {
             <nav className="grid gap-y-8 divide-y divide-gray-300">
               <Link href="#about-me">
                 <a
-                  className="-m-3 p-3 flex items-center"
+                  className="-m-3 p-3 flex items-center hover:bg-amber-500 hover:text-white rounded"
                   onClick={() => setNav(false)}
                 >
                   <BsFillPersonFill />
@@ -50,7 +50,7 @@ const MobileMenu = ({ renderThemeChanger, setNav }) => {
 
               <Link href="#skills">
                 <a
-                  className="-m-3 p-3 flex items-center "
+                  className="-m-3 p-3 flex items-center hover:bg-amber-500 hover:text-white rounded"
                   onClick={() => setNav(false)}
                 >
                   <BsTools />
@@ -62,7 +62,7 @@ const MobileMenu = ({ renderThemeChanger, setNav }) => {
 
               <Link href="#projects">
                 <a
-                  className="-m-3 p-3 flex items-center "
+                  className="-m-3 p-3 flex items-center hover:bg-amber-500 hover:text-white rounded"
                   onClick={() => setNav(false)}
                 >
                   <BsFileEarmarkCodeFill />
@@ -76,7 +76,7 @@ const MobileMenu = ({ renderThemeChanger, setNav }) => {
                 href="https://www.linkedin.com/in/mostafa-abbas98/"
                 target={'_blank'}
                 rel="noreferrer"
-                className="-m-3 p-3 flex items-center "
+                className="-m-3 p-3 flex items-center hover:bg-amber-500 hover:text-white rounded"
               >
                 <BsLinkedin />
                 <span className="ml-3 text-base font-medium text-black dark:text-white">
@@ -87,7 +87,7 @@ const MobileMenu = ({ renderThemeChanger, setNav }) => {
                 href="https://github.com/mostafaabbas98"
                 target={'_blank'}
                 rel="noreferrer"
-                className="-m-3 p-3 flex items-center "
+                className="-m-3 p-3 flex items-center hover:bg-amber-500 hover:text-white rounded"
               >
                 <BsGithub />
                 <span className="ml-3 text-base font-medium text-black dark:text-white">
@@ -98,7 +98,7 @@ const MobileMenu = ({ renderThemeChanger, setNav }) => {
                 href="mailto:mostafaabbas98@outlook.com"
                 target={'_blank'}
                 rel="noreferrer"
-                className="-m-3 p-3 flex items-center "
+                className="-m-3 p-3 flex items-center hover:bg-amber-500 hover:text-white rounded"
               >
                 <HiMail />
                 <span className="ml-3 text-base font-medium text-black dark:text-white">

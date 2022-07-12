@@ -46,7 +46,14 @@ const Footer = () => {
         </div>
       </div>
       <p className="text-sm pt-5">
-        source code by <a href="#">mostafa abbas</a>
+        source code by
+        <a
+          href="https://github.com/mostafaabbas98/mostafs_abbas"
+          target={'_blank'}
+          rel="noreferrer"
+        >
+          &nbsp;mostafa abbas
+        </a>
       </p>
     </footer>
   );
