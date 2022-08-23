@@ -74,13 +74,13 @@ const Header = () => {
         </div>
         {/* section */}
         <nav className="hidden md:flex place-items-center space-x-10 font-medium">
-          <Link href="#about-me">
+          <Link href="/#about-me">
             <a className="">About Me</a>
           </Link>
-          <Link href="#skills">
+          <Link href="/#skills">
             <a className="">Skills</a>
           </Link>
-          <Link href="#projects">
+          <Link href="/#projects">
             <a className="">Projects</a>
           </Link>
         </nav>
